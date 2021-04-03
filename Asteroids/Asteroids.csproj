@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EDEAB176-7C98-49D4-80A5-7B94FBC276F1}</ProjectGuid>
+    <ProjectGuid>{A73A2CBD-D63F-47CB-9AD5-22A18981BD6C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Asteroids</RootNamespace>
     <AssemblyName>Asteroids</AssemblyName>
@@ -35,6 +35,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,11 +45,87 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Asteroid.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="Planet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResImages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResImages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Star.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Properties\System.Designer.Drawing" />
+    <None Include="Properties\System.Drawing">
+      <SubType>Component</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ResImages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResImages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Drawings\background_00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Drawings\meteor_00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Drawings\meteor_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Drawings\meteor_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Drawings\meteor_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Drawings\planet_00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Drawings\star_00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Drawings\star_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Drawings\star_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Drawings\meteor_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Drawings\planet_00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Drawings\star_00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Drawings\star_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Drawings\star_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Drawings\background_00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Drawings\meteor_00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Drawings\meteor_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Drawings\meteor_02.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

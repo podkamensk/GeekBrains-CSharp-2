@@ -1,0 +1,9 @@
+D:\Study\C Repos\GeekBrains CSharp 2\GeekBrains CSharp 2\Asteroids\obj\Debug\Asteroids.csprojAssemblyReference.cache
+D:\Study\C Repos\GeekBrains CSharp 2\GeekBrains CSharp 2\Asteroids\obj\Debug\Asteroids.csproj.CoreCompileInputs.cache
+D:\Study\C Repos\GeekBrains CSharp 2\GeekBrains CSharp 2\Asteroids\bin\Debug\Asteroids.exe.config
+D:\Study\C Repos\GeekBrains CSharp 2\GeekBrains CSharp 2\Asteroids\bin\Debug\Asteroids.exe
+D:\Study\C Repos\GeekBrains CSharp 2\GeekBrains CSharp 2\Asteroids\bin\Debug\Asteroids.pdb
+D:\Study\C Repos\GeekBrains CSharp 2\GeekBrains CSharp 2\Asteroids\obj\Debug\Asteroids.exe
+D:\Study\C Repos\GeekBrains CSharp 2\GeekBrains CSharp 2\Asteroids\obj\Debug\Asteroids.pdb
+D:\Study\C Repos\GeekBrains CSharp 2\GeekBrains CSharp 2\Asteroids\obj\Debug\Asteroids.ResImages.resources
+D:\Study\C Repos\GeekBrains CSharp 2\GeekBrains CSharp 2\Asteroids\obj\Debug\Asteroids.csproj.GenerateResource.cache
